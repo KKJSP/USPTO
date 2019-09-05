@@ -47,18 +47,19 @@ The files were downloaded from PatFT:
 
 ### ANALYSIS
 
+Once the analysis is done, use the 3_VR/Assests/Scripts/DataManagement/convertData.py
+script to create the required input for Unity. The acceptable parameters are explained
+in that script itself.
+
 ### VIRTUAL REALITY
 
 Everything required for the project is contained in the ./Assets folder
 
-**Data**
-##### *FILL*
-
 **Editor**
-##### *FILL*
+---
 
 **Materials**
-##### *FILL*
+Materials used to draw the objects on the screen.
 
 **nuget_packages**
 Do not edit. Handled by the plugins.
@@ -76,14 +77,14 @@ All the objects used in this Unity project.
 * Dragger: Handles the dragging of the patent to show more information
 * Environment: The lights and the floor.
 * Filter: Contains the text and selector for the chosen filter.
-* ObjectTooltip: ###FILL###
+* ObjectTooltip
 * PatentManager: Prefab for the patent manager script
 * PatentPopUp: The panel containing the patent information
 * SettingsPanel: The controller of the VR space. Contains three panels
   color coding, filter, and patent info
 
 **Resources**
-##### *EDIT*
+The prefabs required to create the scene
 
 **Scenes**
 Contains only the main scene.
